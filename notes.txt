@@ -1,0 +1,1 @@
+Default.js: used if a user looks for a page that does not exist
