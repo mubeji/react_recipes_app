@@ -17,7 +17,7 @@ class App extends Component {
             <Router>
                 <React.Fragment>
                     <Navbar />
-                    <Switch>
+                    <Switch> 
                         {/* exact, for when url's have matching starting bit  */}
                         <Route path="/" exact component={Home}/>
                         <Route path="/recipes" exact component={Recipes}/>
