@@ -19,6 +19,7 @@ class App extends Component {
                     <Navbar />
                     <Switch> 
                         {/* exact, for when url's have matching starting bit  */}
+                        
                         <Route path="/" exact component={Home}/>
                         <Route path="/recipes" exact component={Recipes}/>
                         <Route path="/recipes/:id" component={SingleRecipe}/>
