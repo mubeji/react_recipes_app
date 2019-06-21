@@ -3,3 +3,5 @@ Default.js: used if a user looks for a page that does not exist
 The Header component, provides use with a general background component, 
 the reason why we've created this a component is, so that we can 
 reuse it for the home page and default page
+
+the data file contains dummy data
