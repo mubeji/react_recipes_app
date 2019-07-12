@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Header({children, title, styleClass}) {
+    console.log('Header props',children)
     return (
         <header>
             <div className="container-fluid">

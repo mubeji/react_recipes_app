@@ -10,7 +10,7 @@ export default class Home extends Component {
                 Header.defaultprops {} */
             <Header title="amazing recipes">
                 {/* this is a button, passed as children */}
-                <Link to="recipes" className="text-uppercase btn btn-secondary btn-lg mt-3">
+                <Link to="/recipes" className="text-uppercase btn btn-secondary btn-lg mt-3">
                     search recipes
                 </Link>
             </Header>
