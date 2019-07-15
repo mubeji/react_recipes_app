@@ -6,7 +6,7 @@ export default class RecipeList extends Component {
     render() {
         const { recipesArr } = this.props
 
-        let recipesList = recipesArr.map((recipe) => { 
+        const recipesList = recipesArr.map((recipe) => { 
             return (
                 <Recipe key={recipe.recipe_id}
                     recipe={recipe}
@@ -23,7 +23,9 @@ export default class RecipeList extends Component {
                         </div>
                     </div>
                     {/* end of title */}
-                    {recipesList}
+                    <div className="row">
+                        {recipesList}
+                    </div>
                 </div>
             </>
         )

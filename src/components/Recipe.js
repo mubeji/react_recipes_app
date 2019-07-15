@@ -36,6 +36,7 @@ export default class Recipe extends Component {
                         >
                             recipe url
                         </a>
+                        
                     </div>
                 </div>
             </div>
